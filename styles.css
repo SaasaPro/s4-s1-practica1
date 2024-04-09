@@ -1,0 +1,22 @@
+h1 {
+    color: orange;
+}
+
+
+main{
+    color: blue;
+}
+
+/* Los siguientes selectores definidos por clase y id representan la especificidad. */
+.rojo{
+    color: red;
+}
+
+#morado{
+    color: purple;
+}
+
+/* Este selector represanta la cascada ya que toma prioridad sobre el selector h1 escrito en la linea 1 */
+h1 {
+    color: tan
+}
